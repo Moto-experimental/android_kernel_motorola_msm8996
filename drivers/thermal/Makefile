@@ -50,5 +50,4 @@ obj-$(CONFIG_MMI_SYS_TEMP)      += mmi_sys_temp.o
 #TODO: remove me b/62058353
 subdir-ccflags-y += \
 	-Wno-parentheses-equality \
-	-Wno-enum-conversion \
-	-Wno-gcc-compat
+	-Wno-enum-conversion
